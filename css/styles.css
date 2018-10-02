@@ -1,0 +1,186 @@
+/* Basic Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  /*font-family: 'Pontano Sans', sans-serif;*/
+  line-height: 1.6;
+  color: #696969;
+  font-weight: 400;
+  text-align: center;
+  background-color: #FAFAFA;
+}
+
+p {
+  font-size: .95em;
+  margin-bottom: 1.8em;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weith: 700;
+}
+
+h2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  padding-top: 1.3em;
+  padding-bottom: 1.7em;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+h1,
+h3 {
+  font-family: 'Merienda', cursive;
+  color: #032149;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header, 
+.main-content,
+footer {
+  padding: 0.5em 1em;
+}
+
+/* Header-Section */
+
+.header li {
+  background: #fff;
+  margin-bottom: 0.3em;
+  padding-top: 0.7em;
+  height: 3em;
+}
+
+.header li a {
+  font-weight: 800;
+  font-size: 1em;
+  color: #696969;
+  text-transform: uppercase;
+  display: block;
+}
+
+.header li a:hover {
+  color: #800000;
+  text-shadow: 3px 3px #f3ede7;
+  font-size: 1.2em;
+}
+
+.profile-img {
+  margin-top: 2.5em;
+  width: 70%;
+}
+
+/* Main Content */
+
+.main-content {
+  background: #fff;
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-content p {
+  margin-top: 0;
+} 
+
+.main-content p:last-child {
+  padding-bottom: 1.5em;
+}
+
+/* Treehouse Tracks */
+
+#tracks p:first-of-type {
+  margin-bottom: 0.6em;
+}
+
+#tracks a,
+#tracks li a {
+  color: #090;
+  font-size: .95em;
+  font-weight: 700;
+}
+
+#tracks li a {
+  display: block;
+}
+
+#tracks li a:hover {
+  color: #090;
+  font-size: 1em;
+}
+
+#tracks li:last-child {
+  padding-bottom: 1em;
+}
+
+#tracks a:hover {
+  color: #696969;
+}
+
+/* Section Contact */
+
+#contact {
+  padding: 1.3em 1em 1.7em 1em;
+}
+
+#contact span {
+  padding-left: 0.8em;
+  font-weight: 700;
+}
+
+/* Footer */
+
+footer {
+  font-weight: 700;
+}
+
+footer p {
+  float: left;
+  font-family: 'Merienda', cursive;
+}
+
+footer p:last-child {
+  text-transform: uppercase;
+  float: right;
+}
+
+/* Media Queries */
+
+@media (min-width: 769px) {
+
+  /* Clearfix */
+
+  .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+  .main-wrap {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+
+}
+
+
+
+    
+
+
