@@ -27,7 +27,7 @@ h1 {
 h2 {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 1em;
-  font-weight: 700;
+  font-weight: 800;
   padding-top: 1.3em;
   padding-bottom: 1.7em;
   text-transform: uppercase;
@@ -41,7 +41,7 @@ h3 {
 h1,
 h3 {
   font-family: 'Merienda', cursive;
-  color: #032149;
+  color: #696969;;
 }
 
 a {
@@ -64,7 +64,7 @@ footer {
 }
 
 .header li a {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 1em;
   color: #696969;
   text-transform: uppercase;
@@ -156,6 +156,11 @@ footer p {
 footer p:last-child {
   text-transform: uppercase;
   float: right;
+}
+
+footer a,
+footer span {
+  color: #696969;
 }
 
 /* Media Queries */
