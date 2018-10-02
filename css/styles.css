@@ -10,7 +10,6 @@ body {
   color: #696969;
   font-weight: 400;
   text-align: center;
-  /*background-color: #FAFAFA;*/
   background-color: #090;
 }
 
@@ -31,6 +30,7 @@ h2 {
   padding-top: 1.3em;
   padding-bottom: 1.7em;
   text-transform: uppercase;
+  letter-spacing: 0.1em
 }
 h3 {
   font-size: 1.2em;
@@ -74,12 +74,11 @@ nav li a {
   color: #696969;
   text-transform: uppercase;
   display: block;
+  letter-spacing: 0.1em
 }
 
 nav li a:hover {
-  /*color: #800000;*/
   color: #090;
-  color: ;
   text-shadow: 3px 3px #f3ede7;
   font-size: 1.2em;
 }
@@ -154,6 +153,7 @@ nav li a:hover {
   padding-left: 0.8em;
   font-weight: 700;
   color: #fafafa;
+  letter-spacing: 0.02em
 }
 
 /* Footer */
@@ -178,12 +178,15 @@ footer p:last-child {
 }
 
 footer a {
-  color: #fafafa;;
+  color: #fafafa;
+  letter-spacing: 0.1em
 }
 
 /* -----------------------
     Media Queries 
 --------------------------*/
+
+/* Tablet */
 
 @media (min-width: 768px) {
 
@@ -267,20 +270,17 @@ footer a {
   }
 
   .projects {
-    width: 49%;
-    display: inline-block;
-    vertical-align: top;
+    padding: 0 10px 0 10px;
   }
 
-  .projects:nth-child(odd) {
-    margin-left: 4px;
-    padding-right: 0.8em;
-  } 
-
-  .projects:nth-child(even) {
-    margin-right: 4px;
-    padding-left: 0.8em;
-  } 
+  .project {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -2px;
+    margin-right: -2px;
+    padding: 0 6px 0 6px;
+  }
 
   /* Profile */
 
@@ -337,9 +337,102 @@ footer a {
     text-transform: uppercase;
   }
 
-  
+  footer p {
+    font-size: .9em;
+
+  }
+
+  .desktop li a {
+    font-size: .8em;
+    font-weight: 800;
+  }
+
 }
 
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+  body {
+    background-color: #090;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+  }
+
+  header,
+  .main-content,
+  #contact,
+  footer {
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  header p,
+  #contact p {
+    font-size: 1.3em;
+  }
+
+  /* Header */
+
+  header h1 {
+    float: left;
+  }
+
+  nav {
+    float: right;
+    margin-top: 3em;
+  }
+
+  nav li {
+    margin-right: 0;
+  }
+
+  nav li a {
+    font-size: .9em;
+  }
+
+  .profile p {
+
+  }
+
+  .profile img {
+    padding-left: 1.2em;
+    clear:both;
+  }
+
+  /* Main-Section */
+
+  /* Portfolio */
+
+  .projects {
+    padding: 0 10px 0 10px;
+  }
+
+  .project {
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -2px;
+    margin-right: -2px;
+    padding: 0 6px 0 6px;
+  }
+  
+  /* Treehouse Tracks */
+
+  #tracks li a:hover {
+  color: #00e100;
+  text-shadow: 1px 1px #090;
+  font-size: 1.2em;
+  }
+
+  /* Contact Section */
+
+  #contact p {
+    margin-left: 7.5em;
+    margin-right: 7.5em;
+  }
+
+}
 
 
     
