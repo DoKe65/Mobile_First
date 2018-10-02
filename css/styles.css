@@ -6,12 +6,12 @@
 
 body {
   font-family: 'Nanum Gothic', sans-serif;
-  /*font-family: 'Pontano Sans', sans-serif;*/
   line-height: 1.6;
   color: #696969;
   font-weight: 400;
   text-align: center;
-  background-color: #FAFAFA;
+  /*background-color: #FAFAFA;*/
+  background-color: #090;
 }
 
 p {
@@ -41,7 +41,7 @@ h3 {
 h1,
 h3 {
   font-family: 'Merienda', cursive;
-  color: #696969;;
+  color: #696969;
 }
 
 a {
@@ -56,8 +56,13 @@ footer {
 
 /* Header-Section */
 
+.header h1,
+.header p {
+    color: #FAFAFA;
+}
+
 .header li {
-  background: #fff;
+  background: #FAFAFA;;
   margin-bottom: 0.3em;
   padding-top: 0.7em;
   height: 3em;
@@ -72,7 +77,9 @@ footer {
 }
 
 .header li a:hover {
-  color: #800000;
+  /*color: #800000;*/
+  color: #090;
+  color: ;
   text-shadow: 3px 3px #f3ede7;
   font-size: 1.2em;
 }
@@ -85,7 +92,7 @@ footer {
 /* Main Content */
 
 .main-content {
-  background: #fff;
+  background: #FAFAFA;
 }
 
 .main-content img {
@@ -109,13 +116,13 @@ footer {
 
 #tracks a,
 #tracks li a {
-  color: #090;
   font-size: .95em;
   font-weight: 700;
 }
 
 #tracks li a {
   display: block;
+  color: #090;
 }
 
 #tracks li a:hover {
@@ -127,21 +134,26 @@ footer {
   padding-bottom: 1em;
 }
 
-#tracks a:hover {
+#tracks a {
   color: #696969;
+}
+
+#tracks a:hover {
+  color: #090;
 }
 
 /* Section Contact */
 
 #contact {
   padding: 1.3em 1em 1.7em 1em;
+  color: #FAFAFA;
 }
 
 #contact a,
 #contact span {
   padding-left: 0.8em;
   font-weight: 700;
-  color: #696969;
+  color: #FAFAFA;;
 }
 
 /* Footer */
@@ -153,6 +165,7 @@ footer {
 footer p {
   float: left;
   font-family: 'Merienda', cursive;
+  color: #FAFAFA;;
 }
 
 footer p:last-child {
@@ -161,7 +174,7 @@ footer p:last-child {
 }
 
 footer a {
-  color: #696969;
+  color: #FAFAFA;;
 }
 
 /* Media Queries */
