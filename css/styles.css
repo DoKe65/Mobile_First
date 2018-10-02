@@ -163,7 +163,7 @@ footer {
 }
 
 .desktop {
-  visibility: hidden;
+  display: none;
 }
 
 footer p {
@@ -323,11 +323,11 @@ footer a {
   }
 
   .mobile {
-    visibility: hidden;
+    display: none;
   }
 
   .desktop {
-    visibility: visible;
+    display: inline-block;
     float: right;
   }
 
