@@ -172,7 +172,7 @@ footer p {
   color: #fafafa;
 }
 
-footer p:last-child {
+.mobile {
   text-transform: uppercase;
   float: right;
 }
@@ -389,10 +389,6 @@ footer a {
 
   nav li a {
     font-size: .9em;
-  }
-
-  .profile p {
-
   }
 
   .profile img {
