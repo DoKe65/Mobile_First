@@ -140,6 +140,7 @@ footer {
 #contact span {
   padding-left: 0.8em;
   font-weight: 700;
+  color: #696969;
 }
 
 /* Footer */
@@ -158,8 +159,7 @@ footer p:last-child {
   float: right;
 }
 
-footer a,
-footer span {
+footer a {
   color: #696969;
 }
 
