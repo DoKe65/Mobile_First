@@ -378,6 +378,7 @@ footer a {
 
   header h1 {
     float: left;
+    margin-bottom: 2.5em;
   }
 
   nav {
