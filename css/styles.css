@@ -329,6 +329,8 @@ footer a {
   .desktop {
     display: inline-block;
     float: right;
+    min-width: 80%;
+    text-align: right;
   }
 
   .desktop li {
@@ -381,6 +383,8 @@ footer a {
   nav {
     float: right;
     margin-top: 3em;
+    min-width: 50%;
+    text-align: right;
   }
 
   nav li {
