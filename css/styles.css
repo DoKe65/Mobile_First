@@ -177,7 +177,7 @@ footer p {
   float: right;
 }
 
-.footer-nav a {
+footer a {
   color: #fafafa;
   letter-spacing: 0.1em
 }
@@ -330,11 +330,6 @@ footer p {
     display: inline-block;
     float: right;
   }
-
-  .footer-nav: {
-    float: right;
-  }
-
 
   .desktop li {
     display: inline-block;
